@@ -1,0 +1,52 @@
+# Pally x Pi starter — keep secrets and private artifacts out of git
+
+# Pi / MCP auth and session material (lives outside repo, but guard anyway)
+mcp-auth.json
+**/mcp-auth.json
+auth.json
+**/auth.json
+.pi/agent/
+sessions/
+*.log
+mcp.log*
+mcp.log.1
+
+# Env and credential files
+.env
+.env.*
+*.pem
+*.key
+*token*.json
+*secret*.json
+
+# Pi trust / local overrides (keep .pi/mcp.json + example, ignore the rest)
+.pi/trust.json
+.pi/*.local.json
+
+# Private artifacts (do not commit personal runs)
+private/
+*.private.md
+DRAFT-*.md
+screenshots/private/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Deps / temp (starter needs no deps, but guard if added)
+node_modules/
+dist/
+tmp/
+*.tmp
+
+# Keep these (safe, URL-only examples + docs)
+!.pi/mcp.json
+!mcp.example.json
+!README.md
+!TROUBLESHOOTING.md
+!examples/first-retrieval.md

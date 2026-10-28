@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "pally": {
+      "url": "https://agent.pally.com/mcp"
+    }
+  }
+}
