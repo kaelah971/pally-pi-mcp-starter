@@ -1,5 +1,7 @@
 # Pally × Pi MCP Starter
 
+> **Disclaimer:** Independent, unofficial community project. Not affiliated with, endorsed by, or sponsored by Pally or Pi.
+
 > **Use case:** Connect your Pi coding agent to Pally, so you can access your personal assistant's existing context without leaving your development environment.
 
 A minimal, reproducible starter that connects [Pi](https://pi.dev/docs/latest/mcp) (coding agent) to [Pally's MCP server](https://pally.com/mcp) and proves read-only cross-client retrieval — e.g., asking from Pi about something you previously saved through Pally on iMessage.
