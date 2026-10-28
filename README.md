@@ -10,7 +10,23 @@ No extra packages. No MCP bridge. Just Pi + Pally's official endpoint.
 
 ---
 
+## Quickstart (2 minutes)
+
+```bash
+cp mcp.example.json .pi/mcp.json   # project config (URL only, safe to commit)
+pi mcp login pally                   # browser OAuth, default timeout 300s
+pi mcp list                          # expect: pally: connected, 3 tools (codemode, project)
+```
+
+Then ask Pi (read-only): `What is the current status of my Bluebird Robotics opportunity, and when is my next follow-up reminder? Read-only — do not send, schedule, or outreach.`
+
+Full steps below: [Tested setup](#tested-setup) · [Authenticate](#authenticate) · [First working request](#first-working-request) · [Troubleshooting](./TROUBLESHOOTING.md).
+
+---
+
 ## Contents
+
+- [Quickstart](#quickstart-2-minutes)
 
 - [How it works](#how-it-works)
 - [Requirements](#requirements)
@@ -181,7 +197,7 @@ await tools.mcp__pally__message_pally({
 Your Bluebird Robotics outreach is in stage "researching".
 - Saved via iMessage, no outreach sent yet.
 - Open item: draft a 3-line intro.
-- Next reminder: fictional — Monday Nov 3 at 09:00 (local).
+- Next reminder: fictional — Tuesday Nov 3 at 09:00 (local).
 ```
 
 **What a tested real run returned (sanitized summary):**

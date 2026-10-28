@@ -46,7 +46,7 @@ Your Bluebird Robotics outreach is in stage "researching".
 - You saved the Field Robotics Internship posting on Oct 20 via iMessage.
 - No outreach sent yet.
 - Open item: draft a 3-line intro referencing their orchard trial video.
-- Next follow-up reminder: fictional — Monday Nov 3 at 09:00 (your local time).
+- Next follow-up reminder: fictional — Tuesday Nov 3 at 09:00 (your local time).
 ```
 
 ## What a real verified run looks like (sanitized summary)
